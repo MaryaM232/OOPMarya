@@ -7,16 +7,6 @@ public class Monk extends  BaseHero{
         magic = true;
     }
 
-    /*@Override
-    public void strike(BaseHero hero){
-    }
-    @Override
-    public void getDamage(int damagePower){
-    }
-    @Override
-    public boolean changePosition(){return false;}
-    @Override
-    public String indicateStatus()){return null;}*/
     @Override
     public String getInfo() { return String.format("%s magic: %b", super.getInfo(), magic);
     }

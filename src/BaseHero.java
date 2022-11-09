@@ -1,4 +1,4 @@
-public abstract class BaseHero /*implements Actions*/{
+public abstract class BaseHero implements Actions{
     protected static int number;
     private String name;
     private  int attack;
@@ -42,17 +42,16 @@ public abstract class BaseHero /*implements Actions*/{
     public int getSpeed() { return speed; }
     public boolean getStatus() { return status; }
 
-    /*public static int getNumber(){return  number;}
+    public static int getNumber(){return  number;}
+
     @Override
     public void strike(BaseHero hero){
-
     }
     @Override
     public void getDamage(int damagePower){
-
     }
     @Override
     public boolean changePosition(){return false;}
     @Override
-    public String indicateStatus()){return null;}*/
+    public String indicateStatus(){return null;}
 }
